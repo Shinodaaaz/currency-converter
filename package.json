@@ -1,0 +1,10 @@
+{
+  "name": "currency-converter-root",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm start --prefix coingate-proxy\" \"npm run dev --prefix front\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
